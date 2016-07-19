@@ -1,7 +1,26 @@
 "*":
+  core:
+    audioBeep: false
+    autoHideMenuBar: true
+    openEmptyEditorOnStart: false
+    projectHome: "C:\\Users\\v011299\\Development"
+    themes: [
+      "atom-material-ui"
+      "gruvbox-plus-syntax"
+    ]
   editor:
+    fontFamily: "Consolas"
+    fontSize: 13
+    lineHeight: 1.3
+    showInvisibles: true
     tabLength: 4
   "exception-reporting":
-    userId: "08881763-20e3-39f9-080a-403fd748429c"
+    userId: "a6997037-6f77-8e01-6918-df619e97ac56"
+  "metro-ui":
+    themeAccentColor:
+      alpha: 1
+      blue: 192
+      green: 174
+      red: 88
   welcome:
     showOnStartup: false

@@ -30,3 +30,17 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
+'atom-text-editor.vim-mode.normal-mode':
+  ';': 'command-palette:toggle'
+  ':': 'vim-mode:repeat-find'
+  '\\ w': 'window:focus-pane-above'
+  '\\ a': 'window:focus-pane-on-left'
+  '\\ s': 'window:focus-pane-below'
+  '\\ d': 'window:focus-pane-on-right'
+  '\\ q': 'pane:close'
+  '\\ p f': 'fuzzy-finder:toggle-file-finder'
+  '\\ b f': 'fuzzy-finder:toggle-buffer-finder'
+  '\\ [': 'pane:show-previous-item'
+  '\\ ]': 'pane:show-next-item'
+  '=': 'pane:increase-size'
+  '-': 'pane:decrease-size'
